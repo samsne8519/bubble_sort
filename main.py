@@ -10,7 +10,7 @@ def main():
     try:
         number = int(input("How many numbers?: "))
         for i in range(number):
-            value = int(input("Give nr %d number : " %i))
+            value = int(input("Give index [%d] number : " %i))
             a.append(value)
         print("Sorted list: ", bubble_sort(a))
     except Exception:
